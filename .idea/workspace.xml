@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TransE_Triples+mRules:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="699f9ace-b8bc-4459-b772-2dd422a5bce9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kale/joint/EmbeddingSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kale/struct/MatrixMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kale/util/BaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/putranse/PutransE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/joint/KALEJointModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/joint/KALEJointModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/joint/KALEProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/joint/KALEProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/joint/RuleGradient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/joint/RuleGradient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/joint/StochasticUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/joint/StochasticUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/joint/TripleGradient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/joint/TripleGradient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/struct/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/struct/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/struct/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/struct/Rule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/struct/RuleSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/struct/RuleSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/struct/Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/struct/Triple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/struct/TripleSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/struct/TripleSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/trip/KALETripModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/trip/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/trip/StochasticGradient.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/trip/StochasticGradient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/trip/StochasticUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/trip/StochasticUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/util/MetricMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/util/MetricMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/util/NegativeRuleGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/util/NegativeRuleGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/kale/util/NegativeTripleGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kale/util/NegativeTripleGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Eval_LinkPrediction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Eval_LinkPrediction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/MeanRank_Hits1_3_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/MeanRank_Hits1_3_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/dataProcess/ConvertDataForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/dataProcess/ConvertDataForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic/dataProcess/GroundAllRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/dataProcess/GroundAllRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/joint/KALEJointModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/joint/KALEJointModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/joint/KALEProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/joint/KALEProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/joint/RuleGradient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/joint/RuleGradient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/joint/TripleGradient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/joint/TripleGradient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/struct/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/struct/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/struct/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/struct/Rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/struct/RuleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/struct/RuleSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/struct/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/struct/Triple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/struct/TripleSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/struct/TripleSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/trip/KALETripModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/trip/KALETripModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/trip/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/trip/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/util/MetricMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/util/MetricMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/util/NegativeRuleGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/util/NegativeRuleGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kale/util/NegativeTripleGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kale/util/NegativeTripleGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Eval_LinkPrediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Eval_LinkPrediction.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/joint/KALEJointModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2640">
+              <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/putranse/PutransE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic/dataProcess/GroundAllRules.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3360">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datasets/wn18/wn18_rule">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/util/NegativeRuleGeneration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/struct/RuleSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2000">
+              <caret line="109" column="21" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1900">
+              <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/joint/TripleGradient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/joint/RuleGradient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="90" column="21" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kale/joint/KALEProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+              <folding>
+                <element signature="e#2928#2929#0" expanded="true" />
+                <element signature="e#2942#2943#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_synset_domain_topic_of</find>
+      <find>log</find>
+      <find>Matrix</find>
+      <find>21081	8	23597</find>
+      <find>7174</find>
+      <find>21081</find>
+      <find>pSumData</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/basic/dataProcess/ConvertDataForm.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/Rule.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/test/Eval_LinkPrediction.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/Triple.java" />
+        <option value="$PROJECT_DIR$/src/kale/util/BaseUtils.java" />
+        <option value="$PROJECT_DIR$/src/kale/util/NegativeTripleGeneration.java" />
+        <option value="$PROJECT_DIR$/datasets/wn18/entityid.txt" />
+        <option value="$PROJECT_DIR$/src/kale/util/NegativeRuleGeneration.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/RuleSet.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/TripleGradient.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/RuleGradient.java" />
+        <option value="$PROJECT_DIR$/src/kale/trip/KALETripModel.java" />
+        <option value="$PROJECT_DIR$/src/kale/trip/Program.java" />
+        <option value="$PROJECT_DIR$/src/basic/dataProcess/GroundAllRules.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/MatrixMap.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/TripleSet.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/KALEProgram.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java" />
+        <option value="$PROJECT_DIR$/src/kale/util/MetricMonitor.java" />
+        <option value="$PROJECT_DIR$/src/putranse/PutransE.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/EmbeddingSpace.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/Test1.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/Test.java" />
+        <option value="$PROJECT_DIR$/src/kale/struct/gensheixue/One.java" />
+        <option value="$PROJECT_DIR$/src/kale/joint/KALEJointModel.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:/Linux/apache-maven-3.6.1/repository" />
+        <option name="mavenHome" value="D:/Linux/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:/Linux/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2152" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kale" type="462c0819:PsiDirectoryNode" />
+              <item name="joint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kale" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KALE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="putranse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TransE_Triples+mRules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KALE-origin/KALE" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19750196" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.One">
+    <configuration name="BaseUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kale.util.BaseUtils" />
+      <module name="TransE_Triples+mRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kale.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KALEProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kale.joint.KALEProgram" />
+      <module name="TransE_Triples+mRules" />
+      <option name="PROGRAM_PARAMETERS" value="-train datasets/wn18/train.txt -valid datasets/wn18/valid.txt -test datasets/wn18/test.txt -rule datasets/wn18/groundings.txt -m 18 -n 40943 -w 0.1 -k 50 -d 0.2 -ge 0.1 -gr 0.1 -# 1000 -skip 50" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kale.joint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kale.struct.gensheixue.One" />
+      <module name="TransE_Triples+mRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kale.struct.gensheixue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kale.joint.Test" />
+      <module name="TransE_Triples+mRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kale.joint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kale.joint.Test1" />
+      <module name="TransE_Triples+mRules" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kale.joint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KALEProgram" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BaseUtils" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.One" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.One" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.KALEProgram" />
+        <item itemvalue="Application.BaseUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="699f9ace-b8bc-4459-b772-2dd422a5bce9" name="Default Changelist" comment="" />
+      <created>1591959785008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591959785008</updated>
+      <workItem from="1591959791946" duration="3828000" />
+      <workItem from="1592009222959" duration="617000" />
+      <workItem from="1593515770506" duration="1324000" />
+      <workItem from="1593520503249" duration="8021000" />
+      <workItem from="1593617501906" duration="26000" />
+      <workItem from="1593695604554" duration="1786000" />
+      <workItem from="1593700411324" duration="480000" />
+      <workItem from="1593863945702" duration="33611000" />
+      <workItem from="1594798279521" duration="1603000" />
+      <workItem from="1595679964256" duration="1526000" />
+      <workItem from="1596025506688" duration="1126000" />
+      <workItem from="1596462392037" duration="928000" />
+      <workItem from="1596542948366" duration="603000" />
+      <workItem from="1596635446343" duration="937000" />
+      <workItem from="1601864418245" duration="29958000" />
+      <workItem from="1603162528090" duration="11937000" />
+      <workItem from="1603197805431" duration="5815000" />
+      <workItem from="1603250236805" duration="1000" />
+      <workItem from="1603437269687" duration="23474000" />
+      <workItem from="1603676045906" duration="1154000" />
+      <workItem from="1603677212301" duration="10329000" />
+      <workItem from="1603692905798" duration="8640000" />
+      <workItem from="1603761866536" duration="8539000" />
+      <workItem from="1603800919373" duration="46733000" />
+      <workItem from="1604112326008" duration="7078000" />
+      <workItem from="1604134906922" duration="4707000" />
+      <workItem from="1604144373699" duration="42542000" />
+      <workItem from="1604322331089" duration="84468000" />
+      <workItem from="1604801933769" duration="24657000" />
+      <workItem from="1605067741951" duration="1224000" />
+      <workItem from="1605355824662" duration="2697000" />
+      <workItem from="1605501143945" duration="614000" />
+      <workItem from="1605515624129" duration="17365000" />
+      <workItem from="1605576158219" duration="39794000" />
+      <workItem from="1605665379438" duration="3275000" />
+      <workItem from="1605668692167" duration="59023000" />
+      <workItem from="1605933003715" duration="7104000" />
+      <workItem from="1606119202966" duration="628000" />
+      <workItem from="1606129043510" duration="9449000" />
+      <workItem from="1606185139140" duration="8995000" />
+      <workItem from="1606285461904" duration="16466000" />
+      <workItem from="1606359013595" duration="6717000" />
+      <workItem from="1606439207281" duration="1373000" />
+      <workItem from="1606537589958" duration="2171000" />
+      <workItem from="1606698652329" duration="1213000" />
+      <workItem from="1606869738506" duration="730000" />
+      <workItem from="1606877492547" duration="593000" />
+      <workItem from="1606884841531" duration="12000" />
+      <workItem from="1607061797813" duration="7114000" />
+      <workItem from="1607416096120" duration="2518000" />
+      <workItem from="1607570407525" duration="36000" />
+      <workItem from="1607665004867" duration="628000" />
+      <workItem from="1607927190401" duration="607000" />
+      <workItem from="1607950336386" duration="601000" />
+      <workItem from="1608036950155" duration="27000" />
+      <workItem from="1608036983062" duration="2000" />
+      <workItem from="1608098961062" duration="443000" />
+      <workItem from="1608099526675" duration="2112000" />
+      <workItem from="1615447336678" duration="116000" />
+      <workItem from="1616135076263" duration="8775000" />
+      <workItem from="1616672504325" duration="723000" />
+      <workItem from="1616825381460" duration="6410000" />
+      <workItem from="1616897937393" duration="66000" />
+      <workItem from="1616898384624" duration="33000" />
+      <workItem from="1616898458318" duration="7262000" />
+      <workItem from="1616916444408" duration="1845000" />
+      <workItem from="1617091465327" duration="857000" />
+      <workItem from="1617102096268" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="586671000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2152" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996421" weight="0.31396648" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34685314" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32860824" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003579" side_tool="true" weight="0.60180414" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
+      <window_info anchor="bottom" id="Sequence" order="13" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24982105" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.329277" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="RestServices" order="9" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.32999283" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kale/struct/TripleSet.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="iID == 525" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>iID == 525</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>gradientCol == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>LstTrainingTriples.get(iFstRelation) == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>headSet == null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-78/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 78.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-79/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 79.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-80/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 80.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-81/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 81.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-82/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 82.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-83/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 83.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-84/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 84.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-85/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 85.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-86/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 86.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-87/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 87.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-88/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 88.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-89/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 89.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-90/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 90.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-91/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 91.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-92/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 92.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-93/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 93.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-94/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 94.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-95/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 95.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-96/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 96.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-97/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 97.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-98/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 98.log" />
+    <entry file="file://$PROJECT_DIR$/log/3/embedding-99/result-k30-d0.2-ge0.1-gr0.1-w0.1-Embedding_ 99.log" />
+    <entry file="file://$PROJECT_DIR$/log/4/help.log" />
+    <entry file="file://$PROJECT_DIR$/log/5/ahelp.log" />
+    <entry file="file://$PROJECT_DIR$/log/4/ahelp.log" />
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/MatrixMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/util/NegativeTripleGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/wn18/entityid.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/TripleSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="91" column="19" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/EmbeddingSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="77" column="88" selection-start-line="77" selection-start-column="88" selection-end-line="77" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/util/MetricMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1780">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/fb122/fb122_rule">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/wn18/groundings.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/wn18/relationid.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/gensheixue/One.java" />
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/KALEJointModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="143" column="38" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/dataProcess/GroundAllRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/wn18/wn18_rule">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/util/NegativeRuleGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/struct/RuleSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/StochasticUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/TripleGradient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/RuleGradient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kale/joint/KALEProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+          <folding>
+            <element signature="e#2928#2929#0" expanded="true" />
+            <element signature="e#2942#2943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/putranse/PutransE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>TransE_Triples+mRules:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19750196" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19750196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TransE_Triples+mRules</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19750196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19750196" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+Complete iteration #0:
+------Current MRR:0.0011477152342456891	Current Hits@10:0.001
+Complete iteration #50:
+------Current MRR:0.5419686392520923	Current Hits@10:0.9025
+------Best iteration #50	0.5419686392520923	0.9025
+Complete iteration #100:
+------Current MRR:0.5737850271804017	Current Hits@10:0.912
+------Best iteration #100	0.5737850271804017	0.912
+Complete iteration #150:
+------Current MRR:0.5895112743466546	Current Hits@10:0.9145
+------Best iteration #150	0.5895112743466546	0.9145
+Complete iteration #200:
+------Current MRR:0.6080365458633603	Current Hits@10:0.9175
+------Best iteration #200	0.6080365458633603	0.9175
+Complete iteration #250:
+------Current MRR:0.6144306550133136	Current Hits@10:0.9185
+------Best iteration #250	0.6144306550133136	0.9185
+Complete iteration #300:
+------Current MRR:0.6193118586673058	Current Hits@10:0.9195
+------Best iteration #300	0.6193118586673058	0.9195
+Complete iteration #350:
+------Current MRR:0.6266523557553776	Current Hits@10:0.9205
+------Best iteration #350	0.6266523557553776	0.9205
+Complete iteration #400:
+------Current MRR:0.6363168283404758	Current Hits@10:0.9225
+------Best iteration #400	0.6363168283404758	0.9225
+Complete iteration #450:
+------Current MRR:0.6401520292021468	Current Hits@10:0.923
+------Best iteration #450	0.6401520292021468	0.923
+Complete iteration #500:
+------Current MRR:0.6433246611364453	Current Hits@10:0.9215
+------Best iteration #500	0.6433246611364453	0.9215
+Complete iteration #550:
+------Current MRR:0.6462247927504684	Current Hits@10:0.9245
+------Best iteration #550	0.6462247927504684	0.9245
+Complete iteration #600:
+------Current MRR:0.651283794391623	Current Hits@10:0.9255
+------Best iteration #600	0.651283794391623	0.9255
+Complete iteration #650:
+------Current MRR:0.6416487716961237	Current Hits@10:0.9255
+------Best iteration #600	0.651283794391623	0.9255
+Complete iteration #700:
+------Current MRR:0.6485152921960238	Current Hits@10:0.928
+------Best iteration #600	0.651283794391623	0.9255
+Complete iteration #750:
+------Current MRR:0.6534803918903338	Current Hits@10:0.927
+------Best iteration #750	0.6534803918903338	0.927

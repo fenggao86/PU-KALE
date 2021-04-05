@@ -1,0 +1,9 @@
+预处理数据集
+1. 修改数据的格式：调用src/basic/dataProcess目录下的ConvertDataForm.java，将string格式的数据转换成数字格式，输出文件存放在datasets/train/valid/test.txt
+2. 处理逻辑规则：调用src\basic\dataProcess下的GroundAllRules.java命题化/datasets目录下的逻辑规则，生成groudings.txt
+
+训练：
+1. 导出src/kale/join/KALEProgram.java为可运行的jar包，如：KALE.jar
+2. 运行一下命令
+进入KALE目录
+java -jar classes/artifacts/TransE_Triples_mRules_jar/TransE_Triples+mRules.jar -train datasets\wn18\train.txt -valid datasets\wn18\valid.txt -test datasets\wn18\test.txt -rule datasets\wn18\groundings.txt -m 18 -n 40943 -w 0.1 -k 50 -d 0.2 -ge 0.1 -gr 0.1 -# 1000 -skip 50
